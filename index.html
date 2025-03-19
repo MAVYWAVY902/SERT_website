@@ -3,12 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Diffusion-SAFE: Shared Autonomy Framework with
-        Diffusion for Safe Human-to-Robot Driving Handover.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="High Performance GPU-Based Surgical Simulation For Task Learning">
+  <meta name="keywords" content="Surgical Simulation, Task Learning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diffusion-SAFE: Shared Autonomy Framework with
-    Diffusion for Safe Human-to-Robot Driving Handover</title>
+  <title>High Performance GPU-Based Surgical Simulation For Task Learning</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -52,16 +50,6 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://arm.stanford.edu">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-    </div>
-
-  </div>
 </nav>
 
 
@@ -70,73 +58,11 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">Diffusion-SAFE: Shared Autonomy Framework with
-            Diffusion for Safe Human-to-Robot Driving Handover</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://arm.stanford.edu/people">Yunxin Fan</a>,</span>
-            <span class="author-block">
-              <a href="https://monroekennedy3.com">Monroe Kennedy III</a></span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">Stanford University</span>
-            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
-          </div>
-
-          <!-- <div class="column has-text-centered"> -->
-            <!-- <div class="publication-links"> -->
-              <!-- PDF Link. -->
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span> -->
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-              <!-- Code Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span> -->
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
-            <!-- </div> -->
-
-          <!-- </div> -->
+          <h1 class="title is-2 publication-title">High Performance GPU-Based Surgical Simulation For Task Learning</h1>
+          <h1 class="title is-4 publication-title">Individual Project</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Yunxin Fan (yunxin6@stanford.edu)</span>
+            </div>
         </div>
       </div>
     </div>
@@ -146,26 +72,21 @@
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="rows is-full-width">
+  <!-- Visual Effects. -->
+  <div class="rows">
+    <div class="content">
+      <div class="columns is-multiline is-centered">
+        <div class="column is-full has-text-centered">
+          <video id="scene2" autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/surgical_splash_demo.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <!-- Visual Effects. -->
-      <div class="rows">
-        <div class="content">
-          <!-- <h2 class="title is-3">Simulation Demos</h2> -->
-
-          <div class="columns is-multiline">
-            <div class="column is-half has-text-centered">
-              <img id="teaser-image" src="./static/images/splash_screenshot.png" alt="splash figure" width="100%">
-            </div>
-            <div class="column is-half has-text-centered">
-              <video id="scene2" autoplay muted loop playsinline height="100%">
-                <source src="./static/videos/diffuse.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
             <p>
-              Closed-loop framework with two diffusion model-based policies: an
-              evaluator to predict human intent, and a copilot to provide optimal trajectories and ensure smooth control transitions during safety-critical situations.
+              An example of liver simulation with a <b>laparoscope</b> (only the tip part). Right now, the laparoscope can be controlled using the keyboard.
             </p>
         </div>
       </div>
@@ -177,36 +98,31 @@
         <!-- Abstract. -->
         <div class="columns is-centered has-text-centered">
           <div class="column is-full-width">
-            <h2 class="title is-4">Abstract</h2>
+            <h2 class="title is-4">Project Overview</h2>
             <div class="content has-text-justified">
               <p>
-                Safe handover in shared autonomy for vehicle control is well-established in modern vehicles. However, avoiding
-                accidents often requires action several seconds in advance. This
-                necessitates understanding human driver behavior and an expert
-                control strategy for seamless intervention when a collision or
-                unsafe state is predicted. 
+                Robotic surgery is a rapidly developing field that can greatly benefit from the automation of surgical tasks. 
+                However, training techniques such as Reinforcement Learning (RL) require a high number of task repetitions,
+                which are especially unsafe and impractical to perform on real surgical systems. 
+                This stresses the need for simulated surgical environments, which are not only realistic, 
+                but also computationally efficient and scalable. 
               </p>
               <p>
-                We propose <b>Diffusion-SAFE</b>, a closed-loop shared autonomy framework leveraging diffusion models
-                to: (1) predict human driving behavior for detection of potential risks, (2) generate safe expert trajectories, and (3) enable smooth
-                handovers by blending human and expert policies over a short
-                time horizon. Unlike prior works which use engineered score
-                functions to rate driving performance, our approach enables both
-                performance evaluation and optimal action sequence generation
-                from demonstrations. By adjusting the forward and reverse
-                processes of the diffusion-based copilot, our method ensures
-                a gradual transition of control authority, by mimicking the
-                drivers behavior before intervention, which mitigates abrupt
-                takeovers, leading to smooth transitions.
+                To address these challenges, I'm developing a <b>high-performance surgical simulator for robotic surgery</b>. In this 
+                simulator, both physics simulation and RL policy training reside entirely on a single GPU, which avoids typical bottlenecks associated with data transfer between the CPU and GPU, 
+                leading to an accelerated learning rates.
               </p>
               <p>
-                We evaluated <b>Diffusion-SAFE</b> in both simulation (CarRacing-v0) and real-world (ROS-
-                based race car), measuring human driving similarity, safety, and
-                computational efficiency. Results demonstrate a <b>98.5%</b> successful
-                handover rate, highlighting the framework's effectiveness in progressively correcting human actions and continuously sampling
-                optimal robot actions. Videos and code will be released upon
-                publication.
+                The expected results are expexted to reduce the training time of a complex tissue manipulation task by an order of magnitude, down to a couple of minutes, compared to a conventional CPU/GPU simulator. 
+                Such speed-up may facilitate the experimentation with RL techniques and contribute to the development of new generation of surgical systems. For RL-based task learning, 
+                I'm working on achieving cutting, pulling, and extraction tasks! 🩺🔬
+
               </p>
+              <p>
+                My goal is to advance Robot-Assisted Surgical Systems (RASS) by developing high-performance RL-driven solutions for complex surgical tasks!🎯
+
+              </p>
+
             </div>
           </div>
         </div>
@@ -230,11 +146,10 @@
 <section class="framework">
   <div class="container is-max-desktop">
     <div class="hero-body has-text-centered">
-      <img id="teaser-image" src="./static/images/framework.png" alt="Framework Image" width="100%">
+      <img id="teaser-image" src="./static/images/framework.png" alt="Framework Image" width="90%">
       <p>
-        <b>Diffusion-SAFE</b> architecture: The evaluator model processes observations and action sequences, sampling future action
-        sequences aligned with human intent in a simulated environment. The copilot model generates and executes expert action sequences when the human
-        performance score falls below a predefined threshold \( \tau_{NLL} \).
+        Schematic representation of the integration between a high-performance surgical RL environment and the rl_games framework. 
+        By keeping both physics simulation and policy training entirely on a single GPU, it eliminates CPU-GPU bottlenecks, significantly accelerating learning for robotic surgical tasks.
       </p>
       <!-- MathJax script for rendering LaTeX -->
       <script type="text/javascript" async
@@ -245,257 +160,77 @@
 </section>
 
 
-
-
-
-
-
 <section class="section">
   <div class="container is-max-desktop">
 
-    <!-- 📌 Model Architecture -->
+    <!-- 📌 Features -->
     <div class="column is-full-width">
-      <h2 class="title is-4">Model Architecture</h2>
+      <h2 class="title is-4">Features (Done)</h2>
+      <div class="content has-text-justified">
+
+        <ul>
+          <li>✅Soft-body simulation engine created with <b>extended Position Based Dynamics (XPBD) solver</b>.</li>
+          <li>✅Simulation code written in <b>Nvidia Warp</b> allowing for fast execution on GPUs and interoperability with PyTorch for future RL tasks.</li>
+          <li>✅The simulation is written in a data-oriented way (data for multiple environments are kept in the same arrays).</li>
+          <li>✅Rendering with simple yet fast ray casting on GPU.</li>
+        </ul>
+
+        <!-- MathJax script for rendering LaTeX -->
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+      </div>
+    </div>
+    <br/>
+
+
+
+    <!-- 📌 TODOs -->
+    <div class="column is-full-width">
+      <h2 class="title is-4">TODOs</h2>
       <div class="content has-text-justified">
         <p>
-          <b>Noise Estimator Architecture:</b> U-Net design with residual connections, 
-          positional embedding of step \( t \), and conditioning vector 
-          \( \mathbf{C}_{0:t_{\text{obs}}} \). Double convolution block (DC in the figure).
+          <span style="font-size: larger; font-weight: bold;">
+            Here's what's next on my action plan 🚀 :
+          </span>
         </p>
 
-        <!-- MathJax script for rendering LaTeX -->
-        <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-        </script>
-      </div>
-      <div class="has-text-centered">
-        <video id="unet-image" autoplay muted loop playsinline width="100%">
-          <source src="./static/videos/unet_video.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-    <br/>
+        <ul>
+          <li>📝Bounding Volume Hierarchy creation.</li>
+          <li>📝Scene creation with <b>Nvidia OmniVerse</b> (tools for that will be added in future updates).</li>
+          <li>📝Instrument grasping implemented and simple topological modifications to be added (e.g. cutting, pulling, extraction task, etc).</li>
+        </ul>
 
-
-    <!-- 📌 Simulation Four Scenes -->
-    <div class="column is-full-width">
-      <h2 class="title is-4">Simulation Demos</h2>
-      <div class="content has-text-justified"></div>
-      <p>
-        Here we showcase four different simulated scenes randomly generated in Gym CarRacing-v0.
-      </p>
-
-      <br> <!-- more space -->
-      <div style="margin-bottom: 10px;"></div> 
-
-      <div class="columns is-multiline">
-        <div class="column is-half has-text-centered">
-          <video id="scene1" autoplay controls muted loop playsinline width="100%">
-            <source src="./static/videos/scene1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="column is-half has-text-centered">
-          <video id="scene2" autoplay controls muted loop playsinline width="100%">
-            <source src="./static/videos/scene2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="column is-half has-text-centered">
-          <video id="scene3" autoplay controls muted loop playsinline width="100%">
-            <source src="./static/videos/scene3.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="column is-half has-text-centered">
-          <video id="scene4" autoplay controls muted loop playsinline width="100%">
-            <source src="./static/videos/scene4.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-    <br/>
-
-    <!-- 📌 Simulation Demos (Handover) -->
-    <div class="column is-full-width">
-      <h2 class="title is-4">Partial Diffusion as Handover Process</h2>
-      <p>
-        By changing \( \gamma \), we can adjust the balance between preserving human input and following the safe behavior of the copilot: 
-        when \( \gamma \) is small, human intent is well preserved, and thus with limited alignment to \( P_{\text{copilot}} \); 
-        in contrast, larger values \( \gamma \) would lead the system to prioritize aligning with the copilot policy over human input.
-      </p>
-      <br> <!-- more space -->
-      <div style="margin-bottom: 1px;"></div> 
-      <p>
-        Comparison of Our Partial Diffusion Method and Simple Blending in the Handover Process:
-      </p>
-      <!-- MathJax script for rendering LaTeX -->
-      <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-      </script>
-
-      <br> <!-- more space -->
-      <div style="margin-bottom: 10px;"></div> 
-
-
-      <div class="columns is-multiline">
-        <div class="column is-half has-text-centered">
-          <video id="handover1" autoplay controls muted loop playsinline width="100%">
-            <source src="./static/videos/our_handover.mp4" type="video/mp4">
-          </video>
-          <p>
-            <b>Our approach (via forward diffusion ratio</b> \( \gamma \) <b>)</b>
-        </p>
-        
         <!-- MathJax script for rendering LaTeX -->
         <script type="text/javascript" async
           src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
         </script>
-        
-
-         
-        </div>
-        <div class="column is-half has-text-centered">
-          <video id="handover2" autoplay controls muted loop playsinline width="100%">
-            <source src="./static/videos/simple_blend.mp4" type="video/mp4">
-          </video>
-          <p>
-            <b>Simply blend:</b> 
-            &nbsp;
-            \( \mathbf{a}_{blend} = k \mathbf{a}_{H} + (1 - k) \mathbf{a}_{copilot} \)
-          </p>
-        
-          <!-- MathJax script for rendering LaTeX -->
-          <script type="text/javascript" async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-          </script>
-        
-
-        </div>
       </div>
+
     </div>
     <br/>
-
-
-    <!-- 📌 Ablation -->
-    <div class="column is-full-width">
-      <h2 class="title is-4">Ablations</h2>
-      
-      <p>
-        Ablation studies are conducted for both the evaluator and the copilot. 
-        For the evaluator, the observation horizon = 20, and the prediction horizon = 30, unless stated otherwise. 
-        For the copilot, the observation horizon = 10, and the prediction horizon = 15, unless stated otherwise. 
-        The horizon unit is measured in steps, where each step corresponds to 0.1s. \( \textbf{Bold} \) indicates the best result, while \( \textit{Italic} \) indicates the second-best result.
-      </p>
-    
-    
-      <!-- MathJax script for rendering LaTeX -->
-      <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-      </script>
-    
-      <br> <!-- add space -->
-      <div style="margin-bottom: 20px;"></div> 
-
-      <!-- 📌 two videos in one rows -->
-      <div class="columns is-multiline">
-        <div class="column is-half has-text-centered">
-          <img id="mocap-image" src="./static/images/evaluator_ablation.png" alt="evaluator_ablation" width="100%">
-          <p><b>Ablation table for the evaluator model</b></p>
-        
-        <!-- MathJax script for rendering LaTeX -->
-        <script type="text/javascript" async
-          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-        </script>
-        </p>
-        </div>
-        <div class="column is-half has-text-centered">
-          <img id="mocap-image" src="./static/images/copilot_ablation.png" alt="evaluator_ablation" width="100%">
-        <p><b>Ablation table for the copilot model</b></p>
-        </div>
-      </div>
-    </div>
-
-
-      <!-- 📌 Baseline -->
-      <br> <!-- add space -->
-      <div style="margin-bottom: 10px;"></div> 
-      <div class="column is-full-width">
-        <h2 class="title is-4">Comparison with Baselines</h2>
-        
-        <p>
-          In this work, we utilize the ability of the diffusion policy to inherently express multimodal distributions. 
-          Our method is compared to the following multimodal methods: <a
-          href="https://robomimic.github.io">LSTM-GMM</a> and <a
-          href="https://mahis.life/bet">Behavior Transformers models (BET)</a>. 
-          The results are summarized in the following tables.
-          The horizon unit is measured in steps, where each step corresponds to 0.1s. \( \textbf{Bold} \) indicates the best result, while \( \textit{Italic} \) indicates the second-best result.
-        </p>
-
-        <!-- MathJax script for rendering LaTeX -->
-        <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-        </script>
-        
-        <br> <!-- add space -->
-        <div style="margin-bottom: 10px;"></div> 
-
-  
-        <!-- 📌 two figures in one row -->
-        <div class="columns is-multiline">
-          <div class="column is-half has-text-centered">
-            <img id="mocap-image" src="./static/images/evaluator_comparison.png" alt="evaluator_comparison" width="100%">
-            <p><b>Baseline Comparison table for the evaluator model</b></p>
-          </div>
-          <div class="column is-half has-text-centered">
-            <img id="mocap-image" src="./static/images/copilot_comparison.png" alt="copilot_comparison" width="100%">
-            <p><b>Baseline Comparison table for the copilot model</b></p>
-          </div>
-        </div>
-      </div>
-
-    <!-- 📌 Motion Capture Visualization -->
-    <br> <!-- add space -->
-    <div style="margin-bottom: 10px;"></div> 
-    <div class="column is-full-width">
-      <h2 class="title is-4">Real-world Experiment Setup and Dataset Collection Pipeline</h2>
-      
-      <p>
-        We conducted real-world experiments on a ROS-based race car equipped with a Jetson Orin Nano for onboard processing. A Windows11 computer running Motive software streamed data from a 13-camera OptiTrack motion capture system.
-      </p>
-
-      <br> <!-- more space -->
-      <div style="margin-bottom: 2px;"></div> 
-
-      <p>
-        To be detailed, we use Mocap system to obtain real-time poses in the world frame of the car,
-        convert poses in the world frame into the pixel frame, and use pose data (in the pixel frame) to real-time crop image patches for dataset collection.
-
-      </p>
-
-      <br> <!-- more space -->
-      <div style="margin-bottom: 10px;"></div> 
-
-      <div class="has-text-centered">
-        <img id="mocap-image" src="./static/images/mocap.png" alt="Motion Capture Visualization" width="80%">
-      </div>
-    </div>
-
 
     <!-- 📌 Real-world Demo -->
     <div class="column is-full-width">
-      <h2 class="title is-4">Real-world Demo</h2>
-      <p>
-        Real-world demo on an unseen map:
-      </p>
+      <h2 class="title is-4">Expected Outcomes</h2>
+      <div class="content has-text-justified">
 
-      <br> <!-- more space -->
-      <div style="margin-bottom: 10px;"></div> 
+        <ul>
+          <li>🎯A high-performance simulation environment optimized for soft-tissue interaction using XPBD.</li>
+          <li>🎯Significant speed-up in RL training by eliminating CPU-GPU bottlenecks.</li>
+          <li>🎯Validation on complex surgical tasks, demonstrating feasibility for real-world applications.</li>
+          <li>🎯Open-source release, fostering community adoption and further research.</li>
+        </ul>
 
-      <div class="has-text-centered">
-        <video id="teaser" autoplay muted loop playsinline width="100%">
-          <source src="./static/videos/teaser.mp4" type="video/mp4">
-        </video>
+        <!-- MathJax script for rendering LaTeX -->
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
       </div>
+
     </div>
     <br/>
+
 
   </div>
 </section>
@@ -505,11 +240,9 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{DiffusionSAFE,
-  author    = {Yunxin Fan and Monroe Kennedy III},
-  title     = {Diffusion-SAFE: Shared Autonomy Framework with Diffusion for Safe Human-to-Robot Driving Handover},
-  journal   = {arXiv},
-  year      = {2025},
+    <pre><code>@article{SurgicalSimulation,
+  author    = {Yunxin Fan},
+  title     = {High Performance GPU-Based Surgical Simulation For Task Learning},
 }</code></pre>
   </div>
 </section>
@@ -517,16 +250,7 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <!-- <a class="icon-link"
-   href="./static/videos/nerfies_paper.pdf">
-  <i class="fas fa-file-pdf"></i>
-</a> -->
-      <a class="icon-link" href="https://github.com/armlabstanford"
-        class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
+    
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
