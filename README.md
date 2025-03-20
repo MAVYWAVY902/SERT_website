@@ -1,6 +1,6 @@
 # DiffusionSAFE
 
-This is the repository that contains source code for the [DiffusionSAFE website](https://DiffusionSAFE.github.io).
+This is the repository that contains source code for the [Surgical Simulaiton website](https://mavywavy902.github.io/SurgicalSimulation/).
 
 <!-- If you find DiffusionSAFE useful for your work please cite:
 ```
