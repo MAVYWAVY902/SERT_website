@@ -1,4 +1,4 @@
-# DiffusionSAFE
+# SurgicalSimulaiton
 
 This is the repository that contains source code for the [Surgical Simulaiton website](https://mavywavy902.github.io/SurgicalSimulation/).
 
