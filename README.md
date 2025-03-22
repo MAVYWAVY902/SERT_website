@@ -1,6 +1,6 @@
 # VR Image Dataset for Semantic Segmentation
 
-This is the repository that contains source code for the [VR Image Dataset for Semantic Segmentation website](https://mavywavy902.github.io/SegmentationTransformer/).
+This is the repository that contains source code for the [VR Image Dataset for Semantic Segmentation website](https://mavywavy902.github.io/SERT_website/).
 
 
 
